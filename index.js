@@ -96,8 +96,8 @@ app.post('/ussd', (req, res) => {
             } else {
                 // Voting option selected
                 response = userLanguages[phoneNumber] === 'en' ? 
-                    `CON Select a candidate:\n1. kalisa paul\n2. kayitesi aime\n3. kanjogera anne\n4. kampire peter\n5. kayitesi  chantal` : 
-                    `CON Hitamo umukandida:\n1. kalisa paul\n2. kayitesi aime\n3. kanjogera anne\n4. kampire peter\n5. kayitesi  chantal`;
+                    `CON Select a candidate:\n1. Dukundimana\n2. Diane\n3. umutoni\n4. umutesi\n5. umuhoza` : 
+                    `CON Hitamo umukandida:\n1.  Dukundimana\n2. Diane\n3. umutoni\n4. umutesi\n5. umuhoza`;
             }
         } else if (userInput[2] === '2') {
             // View votes option selected
